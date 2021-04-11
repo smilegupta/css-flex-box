@@ -1,0 +1,50 @@
+body {
+    background-color: #d63447;
+}
+
+.flex-container {
+    flex-direction: flex;
+}
+
+.start{
+    justify-content: flex-start;
+}
+
+
+.end{
+    justify-content: flex-end;
+}
+
+.center{
+    justify-content: center;
+}
+
+.column-center{
+    justify-content: center;
+    flex-direction: column;
+    height: 500px;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.column-between{
+    justify-content: space-between;
+    flex-direction: column;
+    height: 500px;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+.column-evenly{
+    justify-content: space-evenly;
+    flex-direction: column;
+    height: 500px;
+}
